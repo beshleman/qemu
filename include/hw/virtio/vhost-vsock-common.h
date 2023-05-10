@@ -38,6 +38,7 @@ struct VHostVSockCommon {
 
     /* features */
     OnOffAuto seqpacket;
+    OnOffAuto dgram;
 };
 
 int vhost_vsock_common_start(VirtIODevice *vdev);
